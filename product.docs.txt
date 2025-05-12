@@ -1,0 +1,21 @@
+## Billing and Usage
+APM hours are calculated based on active applications sending data. Inactive agents should not contribute to usage. You can view usage breakdown under Account > Usage.
+
+## AWS CloudWatch Integration
+To integrate AWS CloudWatch, use the AWS integration wizard in New Relic. Ensure that IAM permissions for the integration include `cloudwatch:ListMetrics` and `cloudwatch:GetMetricData`.
+
+## Custom Dashboards with NRQL
+You can build custom dashboards using NRQL queries. Use the “+Add a chart” button and enter queries like:
+SELECT count(*) FROM Transaction WHERE appName = 'MyApp' SINCE 1 hour ago
+
+## GraphQL API Access
+403 errors from the GraphQL API usually indicate missing permissions. Use a User API key with the appropriate scope or switch to a Personal API key with admin rights.
+
+## User Management and Invitations
+Only users with the Admin role or Account Owner can invite new users. Go to Account Settings > Users & Roles to add team members.
+
+## Role-Based Access Control (RBAC)
+New Relic supports RBAC. You can assign roles like Admin, View-only, or Billing. Go to Account Settings > Roles and select appropriate permissions for each user.
+
+## Synthetics Monitoring
+Synthetics can simulate uptime checks, login flows, and APIs. You can write scripts using Selenium-based syntax. Use the Scripted Browser type for login flows.

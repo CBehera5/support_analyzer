@@ -1,0 +1,8 @@
+title,description
+Billing page shows wrong usage,"My usage is way over the expected number of APM hours. I think it’s counting inactive apps too. Please help!"
+Integrating with AWS CloudWatch,"I tried following the integration steps for AWS CloudWatch but my metrics don’t appear in the dashboard."
+Can't create custom dashboard with NRQL,"I want to build a dashboard showing error rate by application using NRQL, but I’m stuck on syntax and widgets."
+API returns 403 Forbidden,"I’m calling the New Relic GraphQL API with my personal API key, but it keeps giving a 403 error."
+Cannot invite new user,"I'm the account owner but I don’t see the option to invite team members. It just shows me my profile."
+How to assign roles to team members,"We want to give read-only access to some team members. I couldn’t find where to assign roles or set permissions."
+Need help setting up Synthetics monitoring,"I want to monitor uptime and simulate user logins, but the Synthetics tool doesn’t accept my script."
