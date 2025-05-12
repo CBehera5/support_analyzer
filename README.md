@@ -6,16 +6,16 @@ This Streamlit web app uses the **Groq API** and a **vector search-based RAG sys
 
 ---
 
-2. Create Virtual Environment (Optional)
+1. Create Virtual Environment (Optional)
 ```
 python -m venv venv
 source venv/bin/activate  
 ```
-3. Install Dependencies
+2. Install Dependencies
 ```
 pip install -r requirements.txt
 ```
-4. Run the App
+3. Run the App
 ```
 streamlit run app.py
 ```
