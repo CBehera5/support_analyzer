@@ -1,9 +1,8 @@
+openai
+pinecone
 streamlit
-pandas
 langchain
-chromadb
-groq
+python-dotenv
+requests
 tqdm
-transformers
-sentence-transformers
-accelerate
+pandas
